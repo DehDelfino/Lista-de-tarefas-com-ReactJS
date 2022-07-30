@@ -1,0 +1,109 @@
+.containerInput{
+  display: block;
+  display: flex;
+  justify-content: center;
+  margin-top: -2rem;
+  gap: 8px
+
+}
+.input{
+ padding: 1rem;
+ height: 3.375rem;
+ width: 39.875rem;
+
+ background: var(--gray-500);
+ border: 1px solid var(--gray-700);
+ border-radius: 8px;
+
+ color: var(--gray-100);
+ 
+
+}
+
+.containerInput > button{
+  padding: 1rem;
+  background: var(--blueDark);
+  border-radius: 8px;
+  color: var(--gray-100);
+  border: 0;
+
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+
+  transition: background 1s;
+}
+.containerInput > button:hover{
+
+  background: var(--blue);
+
+}
+
+.containerInput > button::after{
+
+  content: "\2295";
+  
+}
+
+
+.containerTasks{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin-top: 4rem ;
+
+  
+}
+
+.containerTasks > header{
+  margin-bottom:1.5rem ;
+}
+.tasksInfo{
+ display: flex;
+ justify-content: space-between;
+ width: 39.875rem;
+ 
+
+
+}
+
+
+.created strong{
+  font-size:0.875rem ;
+  font-weight: bold;
+  color: var(--blue);
+  line-height: 1rem;
+  margin-right: 8px;
+  
+}
+
+.created span{
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  background: var(--gray-400);
+  border-radius: 999px;
+  color: var(--gray-100);
+  line-height: 1rem;
+}
+
+
+
+.done strong{
+  font-size:0.875rem ;
+  font-weight: bold;
+  color: var(--purple);
+  line-height: 1rem;
+  margin-right: 8px;
+  
+}
+
+.done span{
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  background: var(--gray-400);
+  border-radius: 999px;
+  color: var(--gray-100);
+  line-height: 1rem;
+}
